@@ -1,0 +1,142 @@
+{
+    "currentPage": 1,
+    "totalBlogs": 9,
+    "blog": [
+        {
+            "_id": "69c3b439b4bddf14440a033a",
+            "title": "fvnj",
+            "content": "gh hgt",
+            "slug": "fvnj",
+            "author": {
+                "_id": "69c39ebac0aa9aaaf478c755",
+                "name": "Simran",
+                "email": "simran@gmail.com"
+            },
+            "likes": [],
+            "createdAt": "2026-03-25T10:08:57.490Z",
+            "updatedAt": "2026-03-25T10:08:57.490Z",
+            "__v": 0
+        },
+        {
+            "_id": "69c3b42cb4bddf14440a0336",
+            "title": "abcd",
+            "content": "sdf dsfsd ff s",
+            "slug": "abcd-1",
+            "author": {
+                "_id": "69c39ebac0aa9aaaf478c755",
+                "name": "Simran",
+                "email": "simran@gmail.com"
+            },
+            "likes": [],
+            "createdAt": "2026-03-25T10:08:44.182Z",
+            "updatedAt": "2026-03-25T10:08:44.182Z",
+            "__v": 0
+        },
+        {
+            "_id": "69c3b346b4bddf14440a0331",
+            "title": "abcd",
+            "content": "sdf dsfsd ff s",
+            "slug": "abcd",
+            "author": {
+                "_id": "69c39ebac0aa9aaaf478c755",
+                "name": "Simran",
+                "email": "simran@gmail.com"
+            },
+            "likes": [],
+            "createdAt": "2026-03-25T10:04:54.764Z",
+            "updatedAt": "2026-03-25T10:04:54.764Z",
+            "__v": 0
+        },
+        {
+            "_id": "69c3ae4bbe82ffb99f67a9f8",
+            "title": "Schood days",
+            "content": "dsfdsfdsfdsfsdfdsfdsfdsfdsfdsfdsdsfsdsfdsf",
+            "slug": "schood-days-5",
+            "author": {
+                "_id": "69c24cfb7284b156182c0b37",
+                "name": "Shivaksh",
+                "email": "shiv@gmail.com"
+            },
+            "likes": [],
+            "createdAt": "2026-03-25T09:43:39.544Z",
+            "updatedAt": "2026-03-25T09:43:39.544Z",
+            "__v": 0
+        },
+        {
+            "_id": "69c3ae49be82ffb99f67a9ef",
+            "title": "Schood days",
+            "content": "dsfdsfdsfdsfsdfdsfdsfdsfdsfdsfdsdsfsdsfdsf",
+            "slug": "schood-days-4",
+            "author": {
+                "_id": "69c24cfb7284b156182c0b37",
+                "name": "Shivaksh",
+                "email": "shiv@gmail.com"
+            },
+            "likes": [],
+            "createdAt": "2026-03-25T09:43:37.896Z",
+            "updatedAt": "2026-03-25T09:43:37.896Z",
+            "__v": 0
+        },
+        {
+            "_id": "69c3ae48be82ffb99f67a9e7",
+            "title": "Schood days",
+            "content": "dsfdsfdsfdsfsdfdsfdsfdsfdsfdsfdsdsfsdsfdsf",
+            "slug": "schood-days-3",
+            "author": {
+                "_id": "69c24cfb7284b156182c0b37",
+                "name": "Shivaksh",
+                "email": "shiv@gmail.com"
+            },
+            "likes": [],
+            "createdAt": "2026-03-25T09:43:36.653Z",
+            "updatedAt": "2026-03-25T09:43:36.653Z",
+            "__v": 0
+        },
+        {
+            "_id": "69c3ae45be82ffb99f67a9e0",
+            "title": "Schood days",
+            "content": "dsfdsfdsfdsfsdfdsfdsfdsfdsfdsfdsdsfsdsfdsf",
+            "slug": "schood-days-2",
+            "author": {
+                "_id": "69c24cfb7284b156182c0b37",
+                "name": "Shivaksh",
+                "email": "shiv@gmail.com"
+            },
+            "likes": [],
+            "createdAt": "2026-03-25T09:43:33.254Z",
+            "updatedAt": "2026-03-25T09:43:33.254Z",
+            "__v": 0
+        },
+        {
+            "_id": "69c3adce8f57f060cb7081da",
+            "title": "Schood days",
+            "content": "dsfdsfdsfdsfsdfdsfdsfdsfdsfdsfdsdsfsdsfdsf",
+            "slug": "schood-days-1",
+            "author": {
+                "_id": "69c24cfb7284b156182c0b37",
+                "name": "Shivaksh",
+                "email": "shiv@gmail.com"
+            },
+            "likes": [],
+            "createdAt": "2026-03-25T09:41:34.481Z",
+            "updatedAt": "2026-03-25T09:41:34.481Z",
+            "__v": 0
+        },
+        {
+            "_id": "69c3adb78f57f060cb7081d5",
+            "title": "Schood days",
+            "content": "dsfdsfdsfdsfsdfdsfdsfdsfdsfdsfdsdsfsdsfdsf",
+            "slug": "schood-days",
+            "author": {
+                "_id": "69c24cfb7284b156182c0b37",
+                "name": "Shivaksh",
+                "email": "shiv@gmail.com"
+            },
+            "likes": [],
+            "createdAt": "2026-03-25T09:41:11.137Z",
+            "updatedAt": "2026-03-25T09:41:11.137Z",
+            "__v": 0
+        }
+    ],
+    "totalPages": 1
+}
