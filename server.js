@@ -16,14 +16,16 @@ const PORT = process.env.PORT || 8000;
 app.use(express.json());
 app.use(helmet());
 
+app.use(
+  cors({
+    origin: "https://blogwebapp-omega.vercel.app",
+  }),
+);
 
-
-app.use(cors({
-  origin: "https://blogwebapp-omega.vercel.app"
-}));
 app.get("/", (req, res) => {
   res.send("API is running ");
 });
+
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
   limit: 10000, //it can accessed 10000 times in 15 minutes
@@ -31,6 +33,6 @@ const limiter = rateLimit({
 app.use(limiter);
 //import routes
 app.use("/api/auth", routes);
-app.use("/api/blog",blogRoutes)
+app.use("/api/blog", blogRoutes);
 
 app.listen(PORT, () => console.log("Server is running"));
