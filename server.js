@@ -15,7 +15,16 @@ const PORT = process.env.PORT || 8000;
 //middleware
 app.use(express.json());
 app.use(helmet());
-app.use(cors());
+
+
+
+app.use(cors({
+  origin: "https://blogwebapp-omega.vercel.app",
+  credentials: true
+}));
+app.get("/", (req, res) => {
+  res.send("API is running ");
+});
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
   limit: 10000, //it can accessed 10000 times in 15 minutes
