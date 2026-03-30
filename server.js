@@ -12,6 +12,8 @@ import blogRoutes from "./Routers/blogRoutes.js";
 DbConnection();
 const app = express();
 const PORT = process.env.PORT || 8000;
+
+
 //middleware
 app.use(express.json());
 app.use(helmet());
@@ -30,6 +32,7 @@ const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
   limit: 10000, //it can accessed 10000 times in 15 minutes
 });
+
 app.use(limiter);
 //import routes
 app.use("/api/auth", routes);
