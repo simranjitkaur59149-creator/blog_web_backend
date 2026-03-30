@@ -19,8 +19,7 @@ app.use(helmet());
 
 
 app.use(cors({
-  origin: "https://blogwebapp-omega.vercel.app",
-  credentials: true
+  origin: "https://blogwebapp-omega.vercel.app"
 }));
 app.get("/", (req, res) => {
   res.send("API is running ");
