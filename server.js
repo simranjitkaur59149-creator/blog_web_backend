@@ -20,7 +20,7 @@ app.use(helmet());
 
 app.use(
   cors({
-    origin: "https://blogwebapp-omega.vercel.app",
+    origin: "blog-web-ecru-five.vercel.app",
   }),
 );
 
