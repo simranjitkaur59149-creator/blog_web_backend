@@ -54,7 +54,7 @@ export const getBlogsBySlug = async (req, res, next) => {
 export const getBlogsById = async (req, res, next) => {
   try {
     const { id } = req.params;
-    const blog = await Blog.findById({ id });
+    const blog = await Blog.findById(id);
     res.json(blog);
   } catch (error) {
     console.log(error);
