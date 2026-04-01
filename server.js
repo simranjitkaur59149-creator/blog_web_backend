@@ -20,7 +20,7 @@ app.use(helmet());
 
 app.use(
   cors({
-    origin: "https://blogweb-wheat.vercel.app",
+    origin: "https://blogweb-omega.vercel.app",
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
   }),
