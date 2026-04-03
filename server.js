@@ -20,12 +20,12 @@ app.use(helmet());
 
 app.use(
   cors({
-    origin:[ "https://blogweb-omega.vercel.app", "http://localhost:5173"] ,
+    origin:[ "https://blogwebfronted.vercel.app", "http://localhost:5173"] ,
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true
   }),
 );
-app.options("*", cors());
+
 app.get("/", (req, res) => {
   res.send("API is running ");
 });
